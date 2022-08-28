@@ -1,0 +1,44 @@
+.tariff {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-right: 10px;
+}
+
+.card__gigi {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    border-bottom: none;
+    border-top: none;
+    font-size: 20px;
+  }
+
+.card__value {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    background-color: rgb(181, 180, 180);
+}
+
+.button{
+   padding: 20px;
+   background-color: rgb(83, 80, 80);
+   color: white;
+   border: none;
+   font-weight: 600;
+   font-size: 20px;
+}
+
+.button:hover{
+    color: black;
+}
+
+.button:active{
+    color: black;
+    text-shadow: 1px 1px 2px white;
+}
